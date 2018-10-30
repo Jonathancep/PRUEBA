@@ -21,7 +21,7 @@ namespace prueba_01
         {
             if(textBox1.Text == "hola")
             {
-                MessageBox.Show("bien hecho", "mensaje", MessageBoxButtons.OK);
+                MessageBox.Show("hola a todos", "mensaje", MessageBoxButtons.OK);
             }
         }
     }

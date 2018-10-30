@@ -16,5 +16,13 @@ namespace prueba_01
         {
             InitializeComponent();
         }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+            if(textBox1.Text == "hola")
+            {
+                MessageBox.Show("bien hecho", "mensaje", MessageBoxButtons.OK);
+            }
+        }
     }
 }
